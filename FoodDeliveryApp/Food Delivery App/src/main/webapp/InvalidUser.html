@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invalid User</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #FF9800; /* Orange background */
+      color: #fff;
+    }
+
+    .error-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    .error-message {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      width: 350px;
+      text-align: center;
+    }
+
+    .error-message h2 {
+      margin-bottom: 20px;
+      color: #FF9800; /* Orange title */
+    }
+
+    .message {
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #FF9800;
+    }
+
+    .back-btn {
+      padding: 12px;
+      background-color: #66BB6A; /* Light green button */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .back-btn:hover {
+      background-color: #388E3C; /* Darker green on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="error-message">
+      <h2>Invalid User</h2>
+      <p class="message">The user you entered does not exist. Please check your credentials or register.</p>
+      <a href="Register.html" class="back-btn">Register Here</a>
+    </div>
+  </div>
+</body>
+</html>
